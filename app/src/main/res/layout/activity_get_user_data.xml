@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobbeel.mobbsign.teknei.demo.view.GetUserDataActivity">
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="Datos de Usuario"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnGetData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Obtener Datos"
+        android:layout_below="@+id/lblTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/btnGetData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Nombre:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/lblApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/lblNombre"
+        android:layout_centerHorizontal="true"
+        android:text="Apellidos:"
+        android:textAlignment="center" />
+
+<TextView
+        android:id="@+id/lblCurp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/lblApellidos"
+        android:layout_centerHorizontal="true"
+        android:text="C.U.R.P.:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/lblOcr"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/lblCurp"
+        android:layout_centerHorizontal="true"
+        android:text="O.C.R.:"
+        android:textAlignment="center" />
+
+</RelativeLayout>

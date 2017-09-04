@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobbeel.mobbsign.teknei.demo.view.VoucherActivity">
+
+
+    <ImageView
+        android:id="@+id/imgVoucher"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/ButtonContrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/button_contrato" />
+
+    <Button
+        android:id="@+id/btnSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/ButtonContrato"
+        android:layout_toStartOf="@+id/ButtonContrato"
+        android:text="@string/button_summary" />
+
+    <TextView
+        android:id="@+id/lblVoucherName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgVoucher"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="INE:" />
+
+    <TextView
+        android:id="@+id/lblVoucherDocumentType"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblVoucherName"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Tipo de Documento:" />
+
+    <TextView
+        android:id="@+id/lblVoucherDate"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblVoucherDocumentType"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Fecha:" />
+
+    <TextView
+        android:id="@+id/lblVoucherAddress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblVoucherDate"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Dirección:" />
+
+    <TextView
+        android:id="@+id/lblVoucherReference"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblVoucherAddress"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Referencia:" />
+
+</RelativeLayout>

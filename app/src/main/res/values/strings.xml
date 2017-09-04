@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Teknei Demo</string>
+    <string name="msg_new_doc_has_been_signed">A new document has been signed with MobbSign</string>
+    <string name="msg_doc_signed_ok">The document has been signed successfully with MobbSign</string>
+
+    <string name="dialog_accept">Aceptar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="button_contrato">Firmar contrato</string>
+    <string name="button_summary">Resumen de operación</string>
+
+    <string name="default_url">https://192.168.1.100:28443/DemoServer/</string>
+    <string name="default_license">91de5533-ee6e-462f-aff0-74cfae36da73</string>
+
+    <string name="user_data_url">http://192.168.1.100:18080/morpho-test/</string>
+    <string name="user_data_service">api/customer/searchId/customerId=</string>
+
+    <!-- messages -->
+    <string name="txt_doc_uploaded">El documento se ha enviado correctamente.</string>
+
+</resources>
